@@ -1,0 +1,760 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.15f1 (c1aa84e375f6) revision 12692100'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Asus" at "2026-05-28T15:03:57.3628541Z"
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 15787 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-28T15:03:57Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker14
+-projectPath
+D:/Project_PRU/WorkShop_1
+-logFile
+Logs/AssetImportWorker14.log
+-srvPort
+52317
+-licensingIpc
+LicenseClient-Asus
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Project_PRU/WorkShop_1
+D:/Project_PRU/WorkShop_1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [16876]  Target information:
+
+Player connection [16876]  * "[IP] 192.168.1.29 [Port] 0 [Flags] 2 [Guid] 786160098 [EditorId] 786160098 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NQKCPI7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16876] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16876] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.15f1 (c1aa84e375f6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Project_PRU/WorkShop_1/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.1640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002444 seconds.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Asus"
+[Licensing::IpcConnector] LicenseClient-Asus channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Asus-6000.3.15" at "2026-05-28T15:03:58.3240604Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 18140, path: "C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              25cf20089f004076b57c6e15982e2989
+  Correlation Id:          ea27d178ccb20c1c8689d6f86e8faf97
+  External correlation Id: 4789936123146588022
+  Machine Id:              8/QuHIB+HqfGdV4WEai9wo2Y8ic=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Asus-6000.3.15" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Asus-6000.3.15-notifications" at "2026-05-28T15:03:58.331563Z"
+[Licensing::Module] Licensing Background thread has ended after 0.97s
+- Loaded All Assemblies, in  0.491 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.432 seconds
+Domain Reload Profiling: 920ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (221ms)
+		LoadAssemblies (143ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (218ms)
+			TypeCache.Refresh (216ms)
+				TypeCache.ScanAssembly (201ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (432ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (378ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (154ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968429949123-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.859 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 1.51 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.804 seconds
+Domain Reload Profiling: 1661ms
+	BeginReloadAssembly (198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (559ms)
+		LoadAssemblies (372ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (289ms)
+			TypeCache.Refresh (206ms)
+				TypeCache.ScanAssembly (190ms)
+			BuildScriptInfoCaches (69ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (805ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (592ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (360ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6449 unused Assets / (4.3 MB). Loaded Objects now: 7248.
+Memory consumption went from 153.5 MB to 149.1 MB.
+Total: 10.772300 ms (FindLiveObjects: 0.956800 ms CreateObjectMapping: 1.108600 ms MarkObjects: 5.863700 ms  DeleteObjects: 2.841100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 37886.574647 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Environment/fence white right.fbx
+  artifactKey: Guid(10f5ef533774e88498747d9e11368ef1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Environment/fence white right.fbx using Guid(10f5ef533774e88498747d9e11368ef1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '618405c37d25870d98372d3e59903913') in 0.2057201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses with environment/brewery house with environment.prefab
+  artifactKey: Guid(a764455bb60cccf4bb7f085f65af3118) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses with environment/brewery house with environment.prefab using Guid(a764455bb60cccf4bb7f085f65af3118) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '793b43896450529f2a644051dfe61f64') in 0.0255141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Trees/potted tree.prefab
+  artifactKey: Guid(312cd58ee6088b7438b139c6eb2c4878) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Trees/potted tree.prefab using Guid(312cd58ee6088b7438b139c6eb2c4878) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b5ff19f62f37fcb5e1a88119ae4fe38') in 0.0161591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Grounds/lake.fbx
+  artifactKey: Guid(8f04e41f13cdba34abbc8eab356e1b65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Grounds/lake.fbx using Guid(8f04e41f13cdba34abbc8eab356e1b65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8acaf9feec309f150169609bbf278ce1') in 0.0232999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses/post office.prefab
+  artifactKey: Guid(b1dff7cbaa455494cb5ece6f8dddcc64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses/post office.prefab using Guid(b1dff7cbaa455494cb5ece6f8dddcc64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b8cf479cf6994e358c28342a8426ca20') in 0.0163143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Houses/catholic temple.fbx
+  artifactKey: Guid(0725c4b9eb34f1148884fab9db34fd49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Houses/catholic temple.fbx using Guid(0725c4b9eb34f1148884fab9db34fd49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '13d6d54b228f0a051dc2cb91119f3490') in 0.0232175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/fence white left.prefab
+  artifactKey: Guid(3768e9958615ec448aa0316549ed68cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/fence white left.prefab using Guid(3768e9958615ec448aa0316549ed68cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '96cf1747e2b6216844dea4da703c61a9') in 0.0176504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Trees/potted tree.fbx
+  artifactKey: Guid(94fc6eafc91524847a74a802a3572127) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Trees/potted tree.fbx using Guid(94fc6eafc91524847a74a802a3572127) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dba10134255795ec687599743bfc5496') in 0.0246482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses/cute house.prefab
+  artifactKey: Guid(f39f51f88a154a444a3db50d1696c6e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses/cute house.prefab using Guid(f39f51f88a154a444a3db50d1696c6e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43a9a5d619891e25d71514b3420ad3e0') in 0.0233716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Grounds/asphalt ground large.fbx
+  artifactKey: Guid(c18cb56cd71e0ff4ab5be9d43d4880af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Grounds/asphalt ground large.fbx using Guid(c18cb56cd71e0ff4ab5be9d43d4880af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '70501130b81044468b8d6219761d535b') in 0.0217616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Grounds/asphalt ground small.fbx
+  artifactKey: Guid(572d7a4feb0024b47b30fb6213be3fc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Grounds/asphalt ground small.fbx using Guid(572d7a4feb0024b47b30fb6213be3fc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62d318dd90270eba69d834541bfaad4f') in 0.0211324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Trees/spruce border 1.fbx
+  artifactKey: Guid(616f67070ecc3dd4b8f1980044f9466e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Trees/spruce border 1.fbx using Guid(616f67070ecc3dd4b8f1980044f9466e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '12707d7d8e49a2346af466762a3ba568') in 0.0215083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/table.prefab
+  artifactKey: Guid(53a63332f91d2e84181ed13474aa44fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/table.prefab using Guid(53a63332f91d2e84181ed13474aa44fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '72f2a7452bc07e9de39a155af2e24490') in 0.0218826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/fountain.prefab
+  artifactKey: Guid(317e58f5088ea454298373fbb8bb4146) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/fountain.prefab using Guid(317e58f5088ea454298373fbb8bb4146) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae42f890ca7f01a8a6322ecf4a5b1316') in 0.0294274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses with environment/big cottage 1 floor new with environment.prefab
+  artifactKey: Guid(e601906261138b5449ed5390bf7ab49f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses with environment/big cottage 1 floor new with environment.prefab using Guid(e601906261138b5449ed5390bf7ab49f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc148557f59201327699e4dca51bcddd') in 0.0255385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/dog house.prefab
+  artifactKey: Guid(313563e8d171aa34fbd0d884f959d318) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/dog house.prefab using Guid(313563e8d171aa34fbd0d884f959d318) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f80f48b0a3e4e033aaf2b32c3de032a3') in 0.0181065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Grounds/tennis court brown.prefab
+  artifactKey: Guid(24c3d9c10c97a2f439e392cdba3b3098) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Grounds/tennis court brown.prefab using Guid(24c3d9c10c97a2f439e392cdba3b3098) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8e2d2778c1abfcfe5b985606011c16a') in 0.0183528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Plants/plants 2.fbx
+  artifactKey: Guid(0dab2377c15126146b0ddde1fe8909e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Plants/plants 2.fbx using Guid(0dab2377c15126146b0ddde1fe8909e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '575e1f647606acac8bf2977369828755') in 0.0179697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses/big cottage 1 floor new.prefab
+  artifactKey: Guid(b1175cc5bbb11b648af5926d9432b494) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses/big cottage 1 floor new.prefab using Guid(b1175cc5bbb11b648af5926d9432b494) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f85455c705239fc65e7ffdea76090037') in 0.0207063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Lunapark/ferris wheel.fbx
+  artifactKey: Guid(c7bba6ae1d36cb24ca7c073f64c224d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Lunapark/ferris wheel.fbx using Guid(c7bba6ae1d36cb24ca7c073f64c224d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e389f7b325dcd257abc7880aa66a12b5') in 0.0362777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Plants
+  artifactKey: Guid(d015a1c3c5a020e459f43a958b414fa1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Plants using Guid(d015a1c3c5a020e459f43a958b414fa1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '50c7b463faf84154694024ccb15929d6') in 0.0131893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Plants/plants 3.fbx
+  artifactKey: Guid(f3c5b6792a09e194ea2c70c922db91f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Plants/plants 3.fbx using Guid(f3c5b6792a09e194ea2c70c922db91f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '20039d0c780015efbbd3f1b4943a1a84') in 0.0226433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Grounds/asphalt ground wide side turn.fbx
+  artifactKey: Guid(30aa85d089f0bdf458f3852be23e8e57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Grounds/asphalt ground wide side turn.fbx using Guid(30aa85d089f0bdf458f3852be23e8e57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '617f55fd62ec20eb6d0c78f17e64d2a1') in 0.0232662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Roads/paved road turn.fbx
+  artifactKey: Guid(2e79931aa98559b469e62a739a332980) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Roads/paved road turn.fbx using Guid(2e79931aa98559b469e62a739a332980) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8c5c2ca3db911945b45fff9df7a9294f') in 0.0174677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Houses/big cottage 1 floor new.fbx
+  artifactKey: Guid(3bcdbe39a6af358408a873f4156da9d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Houses/big cottage 1 floor new.fbx using Guid(3bcdbe39a6af358408a873f4156da9d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd4181823fa636f35dfe22d117201cf9f') in 0.0178607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses/city hall.prefab
+  artifactKey: Guid(1f78462b7ad62fa4f908eb83bc912b62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses/city hall.prefab using Guid(1f78462b7ad62fa4f908eb83bc912b62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2669ad0541902ad9387007cf9ff9a90d') in 0.0200179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment
+  artifactKey: Guid(889cac8250983ad44b33e0812d36d2c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment using Guid(889cac8250983ad44b33e0812d36d2c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c824f97c41502301711b07f2cc7776e') in 0.012193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Grounds/asphalt ground side turn.prefab
+  artifactKey: Guid(e8ee45b4eb4aab0488c87f728162a76a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Grounds/asphalt ground side turn.prefab using Guid(e8ee45b4eb4aab0488c87f728162a76a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c4968d6b165fec4b9d6a44d63fed5c6') in 0.0192776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Lunapark/ferris wheel.prefab
+  artifactKey: Guid(0feba03cd86bc8a4e8f7ada56dfaec0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Lunapark/ferris wheel.prefab using Guid(0feba03cd86bc8a4e8f7ada56dfaec0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a329414b58582e12a3d65a705135362c') in 0.0216426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 75
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Plants/plants 3.prefab
+  artifactKey: Guid(c5cec09a6aca3ae488f8ecc7534184b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Plants/plants 3.prefab using Guid(c5cec09a6aca3ae488f8ecc7534184b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e6ae32e67cb47cb3a952cf6590c5cce8') in 0.0207301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Plants/plants.fbx
+  artifactKey: Guid(1f78528b19f9ef84ba527ba976c3cf4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Plants/plants.fbx using Guid(1f78528b19f9ef84ba527ba976c3cf4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd2a08ed01f5c12123300d62d69f02398') in 0.0226005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Roads
+  artifactKey: Guid(8aec8d6d0558a824ca488e1f9ae4e463) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Roads using Guid(8aec8d6d0558a824ca488e1f9ae4e463) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ea3c2a715810d49476f456b8c760f0a') in 0.0136318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Roads/paved road straight turn.prefab
+  artifactKey: Guid(1fdbf5b67f29ae0408ea21157c08f801) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Roads/paved road straight turn.prefab using Guid(1fdbf5b67f29ae0408ea21157c08f801) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a6122c2d639a12a305d0a907075bc94e') in 0.022653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Environment/dog house.fbx
+  artifactKey: Guid(6f97f3bdad44e014caea89e6c7708739) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Environment/dog house.fbx using Guid(6f97f3bdad44e014caea89e6c7708739) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '20a62d4e452898d0dc093c5d76a7f646') in 0.0183499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/bench.prefab
+  artifactKey: Guid(b3dba7e3e90e0fa44a97f3046d5bcf3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/bench.prefab using Guid(b3dba7e3e90e0fa44a97f3046d5bcf3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ba19f4939447e79843c5b3600dc3822b') in 0.0201104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Roads/paved road all directions.prefab
+  artifactKey: Guid(a627448dc31da0346892bf026cd0a8df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Roads/paved road all directions.prefab using Guid(a627448dc31da0346892bf026cd0a8df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9a1622d30889fb458e29b84f3e8ac221') in 0.0159378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Environment/bottle.fbx
+  artifactKey: Guid(3876677bcd64dca41bdf1355c20759f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Environment/bottle.fbx using Guid(3876677bcd64dca41bdf1355c20759f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1a6bddd326840f8784542e3975f96f4') in 0.0227408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Trees/spruce border 2.fbx
+  artifactKey: Guid(36b68f1c63794e042bf931175597f9d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Trees/spruce border 2.fbx using Guid(36b68f1c63794e042bf931175597f9d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc1fad09d48c1c69fe59c3ea482fc8ef') in 0.0192428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Houses/post office.fbx
+  artifactKey: Guid(9d1277534012f544483d9c6d9910bce8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Houses/post office.fbx using Guid(9d1277534012f544483d9c6d9910bce8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3896ac7d70b0853e6d255e3416d94538') in 0.0214914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/chair.prefab
+  artifactKey: Guid(deaad61e72908fc4b908f8c5b4351620) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/chair.prefab using Guid(deaad61e72908fc4b908f8c5b4351620) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc3172748ae6e894866e16151da334f3') in 0.0173468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/fence white right.prefab
+  artifactKey: Guid(5dd8209dc48ef624498af0bc0c965410) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/fence white right.prefab using Guid(5dd8209dc48ef624498af0bc0c965410) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '076be5cba2e99767bc2f5d6507c9cce3') in 0.0150761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Trees/tree.prefab
+  artifactKey: Guid(c0118078f34d6b34ea8d5afec2be7cff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Trees/tree.prefab using Guid(c0118078f34d6b34ea8d5afec2be7cff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02aedc04e65deb2b090bc10451c49570') in 0.0207917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Grounds
+  artifactKey: Guid(b404b5f24a5ff1445a93896f3e0f3379) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Grounds using Guid(b404b5f24a5ff1445a93896f3e0f3379) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b49019fb5f8e74e376c4dbb1c8578f24') in 0.0138348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Textures
+  artifactKey: Guid(77616454d98a58645b6dd60dbc61f969) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Textures using Guid(77616454d98a58645b6dd60dbc61f969) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b1699937bfa143f155770374ca49a3ea') in 0.015814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses with environment/city hall with environment.prefab
+  artifactKey: Guid(e8aa900ccb7efce4fb74764e6a06ad02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses with environment/city hall with environment.prefab using Guid(e8aa900ccb7efce4fb74764e6a06ad02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68dc2318f3022fd81ceada277dd8b634') in 0.0206949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Grounds/tennis court brown.fbx
+  artifactKey: Guid(46613cd64b62b7648950c905a84a1c50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Grounds/tennis court brown.fbx using Guid(46613cd64b62b7648950c905a84a1c50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '609893c605ca8899c07f054198d6a68a') in 0.0252781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Plants/bush 2.prefab
+  artifactKey: Guid(bd3beafafa4d79140971d27971731027) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Plants/bush 2.prefab using Guid(bd3beafafa4d79140971d27971731027) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8cc67c97817ae8384b1678510ecb22b2') in 0.0154212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models
+  artifactKey: Guid(c1b8a72e2bc64574ba9f6b3628dc1e25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models using Guid(c1b8a72e2bc64574ba9f6b3628dc1e25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ee535a779fbf3e887caf92c7991fb4c') in 0.0117465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses
+  artifactKey: Guid(958d0d86667c5ec47875d0ecd3215244) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses using Guid(958d0d86667c5ec47875d0ecd3215244) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '181063415a26b9971666aa1de6067bf8') in 0.0113084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses with environment/post office with environment.prefab
+  artifactKey: Guid(7561da2ab10552b449e8bbf1bc21a9e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses with environment/post office with environment.prefab using Guid(7561da2ab10552b449e8bbf1bc21a9e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea9730d53f26449e122f3e47a746fbbb') in 0.0205909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Grounds/asphalt ground small wide.fbx
+  artifactKey: Guid(9bee709060c440e448f4035c7ef40a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Grounds/asphalt ground small wide.fbx using Guid(9bee709060c440e448f4035c7ef40a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '036fb7503d4dc97efca331caabf80c7f') in 0.0209242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Roads/paved road straight.prefab
+  artifactKey: Guid(5299f87befe8b184e94d24bd69ccfbbd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Roads/paved road straight.prefab using Guid(5299f87befe8b184e94d24bd69ccfbbd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '912e706e9839abc35f9d912874049cf0') in 0.018686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Materials
+  artifactKey: Guid(59869226d41efb74e93b738649a8e690) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Materials using Guid(59869226d41efb74e93b738649a8e690) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5388f1a2e5b1135d870168726b2c7ce4') in 0.0115775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/bottle.prefab
+  artifactKey: Guid(5c255520e756e46468e29dd841e33bab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/bottle.prefab using Guid(5c255520e756e46468e29dd841e33bab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43290c84ed0ceb2798109dc3b4bce8c7') in 0.0167156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Lunapark
+  artifactKey: Guid(e15d224000926504c94cf013273ab688) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Lunapark using Guid(e15d224000926504c94cf013273ab688) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ff8c5035b8853f0328885d47d8911d7e') in 0.0112824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Plants/plants.prefab
+  artifactKey: Guid(80ed026466f5d844da8dce37caefba85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Plants/plants.prefab using Guid(80ed026466f5d844da8dce37caefba85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8bb7f28b7158da70c2a672919ce35528') in 0.0139541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Trees/fir tree group 2.fbx
+  artifactKey: Guid(1f0b3db8fcf4f114c94fbeafddb2a1d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Trees/fir tree group 2.fbx using Guid(1f0b3db8fcf4f114c94fbeafddb2a1d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '202f185936825f6e4fd6b676c02c4938') in 0.0181461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Textures/texture_main.png
+  artifactKey: Guid(7678d9521dbf20a41a27ba6dbe48a619) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Textures/texture_main.png using Guid(7678d9521dbf20a41a27ba6dbe48a619) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d29ed974a1f950823faafea259926e3') in 0.0539495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Trees/round tree.prefab
+  artifactKey: Guid(36da48118d7b2ec48b60053be72cc5fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Trees/round tree.prefab using Guid(36da48118d7b2ec48b60053be72cc5fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '78ac6630fdef6f72c1591a250d5027b8') in 0.0169933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses with environment/catholic temple with environment.prefab
+  artifactKey: Guid(a036e5d547ef071409b172154b01318d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses with environment/catholic temple with environment.prefab using Guid(a036e5d547ef071409b172154b01318d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e6c7c54667c8bded674a9b26483d762') in 0.0211467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 84
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Trees/fir tree 1.fbx
+  artifactKey: Guid(bba4ccbc6ae2bc243a1577cb75f8e80b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Trees/fir tree 1.fbx using Guid(bba4ccbc6ae2bc243a1577cb75f8e80b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3ce70b05bd288b8113b089fadc0f51b4') in 0.0289151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Roads/paved road straight turn.fbx
+  artifactKey: Guid(9d31f5a9681c55f4d9542a2516f095e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Roads/paved road straight turn.fbx using Guid(9d31f5a9681c55f4d9542a2516f095e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '384f8a4c84c48b08f62468af56f26c7a') in 0.0229988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Models/Trees/cottage tree 1.fbx
+  artifactKey: Guid(5a69996bba053c9488a5febcf11b3849) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Models/Trees/cottage tree 1.fbx using Guid(5a69996bba053c9488a5febcf11b3849) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab8f6f11bc2a23174a9de2a5a56519dc') in 0.0217791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Grounds/asphalt ground large.prefab
+  artifactKey: Guid(2c3365e42c67cb14998d459f74e7a9a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Grounds/asphalt ground large.prefab using Guid(2c3365e42c67cb14998d459f74e7a9a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd5735e3f90ce395a84bd6f40c1516674') in 0.0189871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/trash can.prefab
+  artifactKey: Guid(1c281df18e0b13e44b9e14e080883a83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/trash can.prefab using Guid(1c281df18e0b13e44b9e14e080883a83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6c033c0c42cb996de321afc903d5feab') in 0.016305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.886128 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/chair.prefab
+  artifactKey: Guid(deaad61e72908fc4b908f8c5b4351620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/chair.prefab using Guid(deaad61e72908fc4b908f8c5b4351620) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a85a6af4dee7708eaa204451c6e5758a') in 0.6889944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
